@@ -32,7 +32,7 @@ def getPrediction(vis_emb, lan_emb):
     return predictions
 
 
-class WeakREChead(nn.Module):
+class WeakREShead(nn.Module):
     def __init__(self, __C):
         super(WeakREChead, self).__init__()
     def forward(self, fusion_fs,lan_fs):
